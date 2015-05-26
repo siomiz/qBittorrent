@@ -26,6 +26,7 @@ rm -rf /usr/local/src/*
 rm /tmp/libtorrent.tar.gz
 yum -y remove qt-devel boost-devel openssl-devel
 yum -y groupremove 'Development Tools'
+yum -y autoremove
 yum clean all
 
 exit 0
